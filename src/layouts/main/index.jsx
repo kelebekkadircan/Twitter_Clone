@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../sidebar'
 import RightBar from '../rightbar'
@@ -19,6 +19,6 @@ const MainLayout = () => {
 
 export default MainLayout
 
-MainLayout.propTypes = {
-    children: PropTypes.element
-}
+// MainLayout.propTypes = {
+//     children: PropTypes.element
+// }
