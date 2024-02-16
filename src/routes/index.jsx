@@ -4,6 +4,7 @@ import Explore from "~/pages/explore";
 import Home from "~/pages/home";
 import NotFound from "~/pages/notfound";
 import Notification from "~/pages/notificaiton";
+import Profile from "~/pages/profile";
 
 
 
@@ -23,6 +24,10 @@ const routes = createBrowserRouter([
             {
                 path: "notifications",
                 element: <Notification />
+            },
+            {
+                path: ":slug",
+                element: <Profile />
             },
             {
                 path: "*",
